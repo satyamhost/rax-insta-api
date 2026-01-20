@@ -1,0 +1,5 @@
+{
+  "builds": [{ "src": "api/insta_ultimate_osint.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/api/(.*)", "dest": "/api/insta_ultimate_osint.py" }],
+  "regions": ["bom1"]
+}
